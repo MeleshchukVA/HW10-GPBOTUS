@@ -9,20 +9,28 @@
 /* Begin PBXBuildFile section */
 		3F174D5528FD655A0018CE50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F174D5428FD655A0018CE50 /* AppDelegate.swift */; };
 		3F174D5728FD655A0018CE50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F174D5628FD655A0018CE50 /* SceneDelegate.swift */; };
-		3F174D5928FD655A0018CE50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F174D5828FD655A0018CE50 /* ViewController.swift */; };
 		3F174D5E28FD655D0018CE50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F174D5D28FD655D0018CE50 /* Assets.xcassets */; };
 		3F174D6128FD655D0018CE50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F174D5F28FD655D0018CE50 /* LaunchScreen.storyboard */; };
+		3F174D6E28FF3D000018CE50 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F174D6D28FF3D000018CE50 /* ListViewController.swift */; };
+		3F174D7428FF3E0D0018CE50 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F174D7328FF3E0D0018CE50 /* ListTableViewCell.swift */; };
+		3F174D7728FF3EC00018CE50 /* BaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F174D7628FF3EC00018CE50 /* BaseLabel.swift */; };
+		3F174D7B28FF448D0018CE50 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F174D7A28FF448D0018CE50 /* List.swift */; };
+		3F174D7D28FF4A5F0018CE50 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F174D7C28FF4A5F0018CE50 /* ListDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F174D5128FD655A0018CE50 /* HW10-GPB-OTUS-MeleshchukVA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW10-GPB-OTUS-MeleshchukVA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F174D5428FD655A0018CE50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F174D5628FD655A0018CE50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F174D5828FD655A0018CE50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F174D5D28FD655D0018CE50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F174D6028FD655D0018CE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F174D6228FD655D0018CE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F174D6A28FF3A670018CE50 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F174D6D28FF3D000018CE50 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		3F174D7328FF3E0D0018CE50 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		3F174D7628FF3EC00018CE50 /* BaseLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabel.swift; sourceTree = "<group>"; };
+		3F174D7A28FF448D0018CE50 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		3F174D7C28FF4A5F0018CE50 /* ListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +85,53 @@
 		3F174D6928FD65E40018CE50 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3F174D5828FD655A0018CE50 /* ViewController.swift */,
+				3F174D7128FF3D1D0018CE50 /* Model */,
+				3F174D7028FF3D150018CE50 /* ViewControllers */,
+				3F174D6F28FF3D0D0018CE50 /* Custom Views */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		3F174D6F28FF3D0D0018CE50 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F174D7528FF3E3B0018CE50 /* Labels */,
+				3F174D7228FF3DA50018CE50 /* Cells */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		3F174D7028FF3D150018CE50 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F174D6D28FF3D000018CE50 /* ListViewController.swift */,
+				3F174D7C28FF4A5F0018CE50 /* ListDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3F174D7128FF3D1D0018CE50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F174D7A28FF448D0018CE50 /* List.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F174D7228FF3DA50018CE50 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3F174D7328FF3E0D0018CE50 /* ListTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3F174D7528FF3E3B0018CE50 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				3F174D7628FF3EC00018CE50 /* BaseLabel.swift */,
+			);
+			path = Labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F174D5928FD655A0018CE50 /* ViewController.swift in Sources */,
 				3F174D5528FD655A0018CE50 /* AppDelegate.swift in Sources */,
+				3F174D7D28FF4A5F0018CE50 /* ListDetailViewController.swift in Sources */,
+				3F174D7428FF3E0D0018CE50 /* ListTableViewCell.swift in Sources */,
 				3F174D5728FD655A0018CE50 /* SceneDelegate.swift in Sources */,
+				3F174D6E28FF3D000018CE50 /* ListViewController.swift in Sources */,
+				3F174D7728FF3EC00018CE50 /* BaseLabel.swift in Sources */,
+				3F174D7B28FF448D0018CE50 /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

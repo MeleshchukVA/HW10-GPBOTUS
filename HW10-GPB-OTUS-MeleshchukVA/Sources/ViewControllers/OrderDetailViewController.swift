@@ -1,23 +1,23 @@
 //
-//  ListDetailViewController.swift
+//  OrderDetailViewController.swift
 //  HW10-GPB-OTUS-MeleshchukVA
 //
-//  Created by Владимир Мелещук on 18.10.2022.
+//  Created by Владимир Мелещук on 19.10.2022.
 //
 
 import UIKit
 
-class ListDetailViewController: UIViewController {
+final class OrderDetailViewController: UIViewController {
     
     // MARK: - Properties
     
-    var list: List?
+    var order: Order?
     
     // MARK: - Init
     
-    init(list: List) {
+    init(order: Order) {
         super.init(nibName: nil, bundle: nil)
-        self.list = list
+        self.order = order
     }
 
     required init?(coder: NSCoder) {
@@ -30,7 +30,5 @@ class ListDetailViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .systemGreen
-        
     }
 }
-

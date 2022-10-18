@@ -1,13 +1,13 @@
 //
-//  ListTableViewCell.swift
+//  OrderTableViewCell.swift
 //  HW10-GPB-OTUS-MeleshchukVA
 //
-//  Created by Владимир Мелещук on 18.10.2022.
+//  Created by Владимир Мелещук on 19.10.2022.
 //
 
 import UIKit
 
-final class ListTableViewCell: UITableViewCell {
+final class OrderTableViewCell: UITableViewCell {
     
     // MARK: - Properties
     
@@ -30,17 +30,17 @@ final class ListTableViewCell: UITableViewCell {
 
 // MARK: - Public methods
 
-extension ListTableViewCell {
+extension OrderTableViewCell {
     
-    func setupCell(list: List) {
-        titleLabel.text = list.title
-        descriptionLabel.text = list.description
+    func setupCell(order: Order) {
+        titleLabel.text = order.title
+        descriptionLabel.text = order.description
     }
 }
 
 // MARK: - Private methods
 
-private extension ListTableViewCell {
+private extension OrderTableViewCell {
     
     func configure() {
         addSubview(titleLabel)

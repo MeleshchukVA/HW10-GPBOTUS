@@ -16,9 +16,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let window = UIWindow(windowScene: windowScene)
         let navigationController = UINavigationController()
-        let listViewController = ListViewController()
+        let orderListViewController = OrderListViewController()
 
-        navigationController.viewControllers = [listViewController]
+        navigationController.viewControllers = [orderListViewController]
         window.rootViewController = navigationController
         self.window = window
 

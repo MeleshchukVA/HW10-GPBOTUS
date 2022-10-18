@@ -11,11 +11,11 @@
 		3F174D5728FD655A0018CE50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F174D5628FD655A0018CE50 /* SceneDelegate.swift */; };
 		3F174D5E28FD655D0018CE50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F174D5D28FD655D0018CE50 /* Assets.xcassets */; };
 		3F174D6128FD655D0018CE50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F174D5F28FD655D0018CE50 /* LaunchScreen.storyboard */; };
-		3F174D6E28FF3D000018CE50 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F174D6D28FF3D000018CE50 /* ListViewController.swift */; };
-		3F174D7428FF3E0D0018CE50 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F174D7328FF3E0D0018CE50 /* ListTableViewCell.swift */; };
 		3F174D7728FF3EC00018CE50 /* BaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F174D7628FF3EC00018CE50 /* BaseLabel.swift */; };
-		3F174D7B28FF448D0018CE50 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F174D7A28FF448D0018CE50 /* List.swift */; };
-		3F174D7D28FF4A5F0018CE50 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F174D7C28FF4A5F0018CE50 /* ListDetailViewController.swift */; };
+		3FA5D85928FF55D10059F15D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA5D85828FF55D10059F15D /* Order.swift */; };
+		3FA5D85B28FF56450059F15D /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA5D85A28FF56450059F15D /* OrderListViewController.swift */; };
+		3FA5D85F28FF56B50059F15D /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA5D85E28FF56B50059F15D /* OrderTableViewCell.swift */; };
+		3FA5D86128FF571C0059F15D /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA5D86028FF571C0059F15D /* OrderDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,11 +26,11 @@
 		3F174D6028FD655D0018CE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F174D6228FD655D0018CE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F174D6A28FF3A670018CE50 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3F174D6D28FF3D000018CE50 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		3F174D7328FF3E0D0018CE50 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		3F174D7628FF3EC00018CE50 /* BaseLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabel.swift; sourceTree = "<group>"; };
-		3F174D7A28FF448D0018CE50 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
-		3F174D7C28FF4A5F0018CE50 /* ListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
+		3FA5D85828FF55D10059F15D /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		3FA5D85A28FF56450059F15D /* OrderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
+		3FA5D85E28FF56B50059F15D /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		3FA5D86028FF571C0059F15D /* OrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 		3F174D7028FF3D150018CE50 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3F174D6D28FF3D000018CE50 /* ListViewController.swift */,
-				3F174D7C28FF4A5F0018CE50 /* ListDetailViewController.swift */,
+				3FA5D85A28FF56450059F15D /* OrderListViewController.swift */,
+				3FA5D86028FF571C0059F15D /* OrderDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -113,7 +113,7 @@
 		3F174D7128FF3D1D0018CE50 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3F174D7A28FF448D0018CE50 /* List.swift */,
+				3FA5D85828FF55D10059F15D /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -121,7 +121,6 @@
 		3F174D7228FF3DA50018CE50 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				3F174D7328FF3E0D0018CE50 /* ListTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -130,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				3F174D7628FF3EC00018CE50 /* BaseLabel.swift */,
+				3FA5D85E28FF56B50059F15D /* OrderTableViewCell.swift */,
 			);
 			path = Labels;
 			sourceTree = "<group>";
@@ -204,13 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA5D86128FF571C0059F15D /* OrderDetailViewController.swift in Sources */,
 				3F174D5528FD655A0018CE50 /* AppDelegate.swift in Sources */,
-				3F174D7D28FF4A5F0018CE50 /* ListDetailViewController.swift in Sources */,
-				3F174D7428FF3E0D0018CE50 /* ListTableViewCell.swift in Sources */,
+				3FA5D85B28FF56450059F15D /* OrderListViewController.swift in Sources */,
 				3F174D5728FD655A0018CE50 /* SceneDelegate.swift in Sources */,
-				3F174D6E28FF3D000018CE50 /* ListViewController.swift in Sources */,
+				3FA5D85F28FF56B50059F15D /* OrderTableViewCell.swift in Sources */,
 				3F174D7728FF3EC00018CE50 /* BaseLabel.swift in Sources */,
-				3F174D7B28FF448D0018CE50 /* List.swift in Sources */,
+				3FA5D85928FF55D10059F15D /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

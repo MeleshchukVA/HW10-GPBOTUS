@@ -28,8 +28,8 @@ final class OrderListViewController: UIViewController {
 private extension OrderListViewController {
     
     func setupView() {
-        view.backgroundColor = .systemBlue
-        title = "Big Smoke Order List"
+        view.backgroundColor = .systemBackground
+        title = "Big Smoke Order"
         navigationController?.navigationBar.prefersLargeTitles = true
     }
     

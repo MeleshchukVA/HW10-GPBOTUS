@@ -22,6 +22,7 @@
 		3F174D5D28FD655D0018CE50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F174D6028FD655D0018CE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F174D6228FD655D0018CE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F174D6A28FF3A670018CE50 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		3F174D4828FD655A0018CE50 = {
 			isa = PBXGroup;
 			children = (
+				3F174D6A28FF3A670018CE50 /* README.md */,
 				3F174D5328FD655A0018CE50 /* HW10-GPB-OTUS-MeleshchukVA */,
 				3F174D5228FD655A0018CE50 /* Products */,
 			);

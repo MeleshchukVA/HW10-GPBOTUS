@@ -85,9 +85,9 @@
 		3F174D6928FD65E40018CE50 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3F174D6F28FF3D0D0018CE50 /* Custom Views */,
 				3F174D7128FF3D1D0018CE50 /* Model */,
 				3F174D7028FF3D150018CE50 /* ViewControllers */,
-				3F174D6F28FF3D0D0018CE50 /* Custom Views */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -95,8 +95,8 @@
 		3F174D6F28FF3D0D0018CE50 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
-				3F174D7528FF3E3B0018CE50 /* Labels */,
 				3F174D7228FF3DA50018CE50 /* Cells */,
+				3F174D7528FF3E3B0018CE50 /* Labels */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";

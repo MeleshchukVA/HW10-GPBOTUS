@@ -17,7 +17,6 @@ let lists: [List] = [
     List(title: "A number 9 large", description: "#9L"),
     List(title: "A number 6 with extra dip", description: "#6ED"),
     List(title: "A number 7", description: "#7"),
-    List(title: "Two number 45", description: "#45, #45"),
-    List(title: "1 with cheese", description: "#1C"),
+    List(title: "Two number 45, one with cheese", description: "#45, #45C"),
     List(title: "And a large soda", description: "#LS"),
 ]

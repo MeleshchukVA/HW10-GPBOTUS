@@ -29,7 +29,7 @@ private extension ListViewController {
     
     func setupView() {
         view.backgroundColor = .systemBlue
-        title = "Big Smoke Order"
+        title = "Big Smoke Order List"
         navigationController?.navigationBar.prefersLargeTitles = true
     }
     
@@ -37,7 +37,7 @@ private extension ListViewController {
         view.addSubview(tableView)
         
         tableView.frame = view.bounds
-        tableView.rowHeight = 120
+        tableView.rowHeight = 100
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(ListTableViewCell.self, forCellReuseIdentifier: ListTableViewCell.reuseID)
@@ -74,7 +74,6 @@ extension ListViewController: UITableViewDelegate {
         
         let list = lists[indexPath.row]
         let destinationViewController = ListDetailViewController(list: list)
-        let navigationController = UINavigationController(rootViewController: destinationViewController)
-        present(navigationController, animated: true)
+        navigationController?.pushViewController(destinationViewController, animated: true)
     }
 }

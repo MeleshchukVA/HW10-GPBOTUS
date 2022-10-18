@@ -62,7 +62,3 @@ private extension ListTableViewCell {
         ])
     }
 }
-    
-    
-
-
